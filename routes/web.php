@@ -37,6 +37,8 @@ Route::get('/category/{id}/view', [CategoryController::class, 'view']);
 Route::delete('/category/{id}/delete', [CategoryController::class, 'delete']);
 Route::put('/category/{id}/update', [CategoryController::class, 'update']);
 
+
+//확인
 //
 route::get('/hello', function (){
     return view('hello');
